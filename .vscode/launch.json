@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use "lldb" if you're on macOS or using the CodeLLDB extension.
+            // Use "cppdbg" if you're using the C++ extension with GDB/LLDB.
+            "type": "lldb", //FROM CHATGPT READ IN-DEPTH LATER
+            "request": "launch",
+            "name": "Debug Rust Program",
+            
+            // Path to your built executable in target/debug.
+            // Replace "hello_cargo" with your actual binary name.
+            "program": "${workspaceFolder}/target/debug/hello_cargo",
+
+            "args": [],
+
+            "cwd": "${workspaceFolder}",
+
+            // Critical for enabling interactive stdin in a separate terminal.
+            "console": "externalTerminal"
+        }
+    ]
+}
