@@ -6,8 +6,8 @@
 
 fn main() {
 
-    let mut b: f32 = 0.0;
-    let mut m: f32 = 1.0;
+    let mut b: f32 = 10.0;
+    let mut m: f32 = 41.0;
     const epochs: i32 = 10000;
     //const trainStep: f32 = 0.01;
     //y = mx+b (minimize this loss)
